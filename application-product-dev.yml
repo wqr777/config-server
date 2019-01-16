@@ -16,4 +16,4 @@ server:
 
 mybatis-plus:
   mapper-locations: classpath:uu/qrsource/lovesale/mapper/*Mapper.xml
-  type-aliases-package: uu.qrsource.lovesale.entity,uu.qrsource.lovesale.query
+  type-aliases-package: uu.qrsource.lovesale.util.entity,uu.qrsource.lovesale.query
