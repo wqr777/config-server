@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lovesale_product
+    username: root
+    password: root
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      min-idle: 8
+      initial-size: 10
+server:
+  port: 8002
+
+mybatis-plus:
+  mapper-locations: classpath:uu/qrsource/lovesale/mapper/*Mapper.xml
+  type-aliases-package: uu.qrsource.lovesale.entity,uu.qrsource.lovesale.query
